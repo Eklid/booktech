@@ -1,5 +1,6 @@
 
 
-0.Change icons, change images at showcase
-1.div.blog ->Inspiring people all over the world
-2. div.about-team [1big container .cards inside it 3 cards .team-card inside it 1 image 2 h2]
+1. style footer container width height flex
+2. add 4icons from font-awsome 
+3. style icons` container to position icons in the center
+4. add margin to seperate icons

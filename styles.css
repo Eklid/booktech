@@ -165,11 +165,10 @@ body {
   padding: 5px;
 }
 
-.eklid {
+.blog {
   margin-top: 20px;
   width: 100vw;
   height: 50vh;
-  /* background-color: burlywood; */
   display: flex;
 }
 
@@ -226,6 +225,7 @@ body {
   text-align: center;
   justify-content: center;
   letter-spacing: 2px;
+  background-color: #f4f4f4;
 }
 
 .case {
@@ -236,7 +236,7 @@ body {
   display: flex;
   width: 100vw;
   height: 40vh;
-  /* background-color: wheat; */
+  background-color: #f4f4f4;
 }
 
 .photo {
@@ -259,4 +259,41 @@ body {
   border-bottom-right-radius: 40%;
   width: 33vw;
   height: 30vh;
+}
+
+.contact {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+}
+
+.contact-image,
+.contact-form {
+  width: 50%;
+  height: 100%;
+}
+
+.contact-form {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+}
+
+.contact-form * {
+  margin: 10px 0;
+}
+
+input {
+  padding: 10px;
+}
+
+.conatct-btn {
+  color: white;
+  text-decoration: none;
+  background-color: limegreen;
+  border-radius: 2px;
+  padding: 10px 15px;
+  text-align: center;
+  font-weight: 600;
 }
