@@ -164,3 +164,99 @@ body {
   height: 50%;
   padding: 5px;
 }
+
+.eklid {
+  margin-top: 20px;
+  width: 100vw;
+  height: 50vh;
+  /* background-color: burlywood; */
+  display: flex;
+}
+
+.icons {
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  padding: 15px;
+}
+
+.icon1 {
+  color: white;
+  font-size: 20px;
+}
+
+.icon2 {
+  margin: 10px 0px;
+  color: white;
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon3 {
+  color: white;
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+.btn-outline {
+  display: inline-block;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 15px;
+  text-decoration: none;
+  border: 2px solid white;
+}
+
+.image1 {
+  width: 100%;
+  height: 100%;
+}
+
+.image2 {
+  width: 50%;
+  height: 100%;
+}
+
+.showcase1 {
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+.case {
+  margin: 10px 0px;
+}
+
+.about-team {
+  display: flex;
+  width: 100vw;
+  height: 40vh;
+  /* background-color: wheat; */
+}
+
+.photo {
+  text-align: center;
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  width: 33vw;
+  height: 30vh;
+}
+.photo1 {
+  text-align: center;
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  width: 33vw;
+  height: 30vh;
+}
+.photo2 {
+  text-align: center;
+  border-top-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  width: 33vw;
+  height: 30vh;
+}
