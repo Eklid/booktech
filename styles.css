@@ -28,6 +28,8 @@ body {
 
 .sub-nav {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .brand {
   color: white;
@@ -35,8 +37,14 @@ body {
 .link {
   color: white;
   text-decoration: none;
-  margin: 0 10px;
+  padding: 0 10px;
   font-size: 20px;
+}
+
+.link:hover {
+  color: royalblue;
+  border-bottom: 2px solid royalblue;
+  padding: 10px;
 }
 
 .main-area {
@@ -93,6 +101,11 @@ body {
   border-radius: 50%;
 }
 
+.icon:hover {
+  background-color: rgba(111, 147, 255);
+  color: rgb(43, 42, 42);
+}
+
 .about {
   width: 100vw;
   height: 40vh;
@@ -131,6 +144,12 @@ body {
   padding: 10px 15px;
   color: white;
   border: 2px solid white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: royalblue;
+  font-weight: 700;
 }
 
 .image {
@@ -237,6 +256,7 @@ body {
   width: 100vw;
   height: 40vh;
   background-color: #f4f4f4;
+  text-align: center;
 }
 
 .photo {
@@ -288,7 +308,7 @@ input {
   padding: 10px;
 }
 
-.conatct-btn {
+.contact-btn {
   color: white;
   text-decoration: none;
   background-color: limegreen;
@@ -296,4 +316,34 @@ input {
   padding: 10px 15px;
   text-align: center;
   font-weight: 600;
+}
+
+.footer {
+  color: white;
+  width: 100vw;
+  height: 20vh;
+  background-color: rgb(75, 73, 73);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-icons i {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.footer-icons i:hover {
+  background-color: cadetblue;
+  color: lightgreen;
+  border-radius: 50%;
+  padding: 10px;
 }

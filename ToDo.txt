@@ -1,6 +1,11 @@
 
+Hover Effect: 
+    Underline [border-bottom + padding]                     {links}
+    Round backgorund [border-radius:50% + padding]          {icon}
+    Negative   [border-color=>backgorund-color => color]        {button}
 
-1. style footer container width height flex
-2. add 4icons from font-awsome 
-3. style icons` container to position icons in the center
-4. add margin to seperate icons
+
+
+1.Main area button hover effect     Si te duash
+1.5 Blog button hover effect        Negative
+2.Contact Send button hover effect  Outline
