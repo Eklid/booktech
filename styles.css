@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: sans-serif;
 }
@@ -20,10 +24,6 @@ body {
   height: 10vh;
   padding: 0 2%;
   background-color: rgba(0, 0, 0, 0.8);
-}
-
-.navbar div {
-  /* border: 2px dotted red; */
 }
 
 .sub-nav {
