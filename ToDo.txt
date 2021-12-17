@@ -9,3 +9,7 @@ Hover Effect:
 1.Main area button hover effect     Si te duash
 1.5 Blog button hover effect        Negative
 2.Contact Send button hover effect  Outline
+3.Change pictures at showcase [!Choose small photos]
+
+Next Time 
+fix navbar position 
