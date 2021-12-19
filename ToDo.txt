@@ -1,1 +1,1 @@
-Update navbar links 
+Update navbar links to go to the page sections
