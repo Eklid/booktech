@@ -31,6 +31,16 @@ body {
   align-items: center;
   justify-content: center;
 }
+.sub-nav input {
+  padding: 5px;
+}
+.sub-nav button {
+  padding: 7px;
+  color: white;
+  background-color: royalblue;
+  border: 0;
+  outline: 0;
+}
 .brand {
   color: white;
 }
@@ -57,10 +67,6 @@ body {
   width: 100vw;
   height: 100vh;
   color: white;
-}
-
-.main-area * {
-  /* border: 2px solid red; */
 }
 
 .slogan {
@@ -265,6 +271,23 @@ body {
   height: 40vh;
   background-color: #f4f4f4;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-peoples {
+  width: 20%;
+  height: 20%;
+  background-color: transparent;
+  border: 0;
+  color: black;
+}
+
+.btn-peoples:hover {
+  color: rgb(21, 111, 245);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 1%;
+  border-radius: 50%;
 }
 
 .photo {
@@ -312,7 +335,7 @@ body {
   margin: 10px 0;
 }
 
-input {
+.contact-form input {
   padding: 10px;
 }
 

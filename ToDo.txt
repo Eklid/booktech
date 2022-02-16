@@ -1,0 +1,29 @@
+1. Fshi 2 subconatainer of .about-team
+2. Poziciono subconatainer-in e mbetur ne mes
+3. shto 2 butona anash kti subconatainer-i
+4. ruaj emrat fotot ne nje vektor photosName
+5. ruaj emrat e njerzve ne nje vektor peopleName
+6. ruajt pozicionet e punes ne nje vektor jobPosition
+7. shto funksionalitetet previos next te butonat duke mbajtur nje varibel pozicioni per te tre vektoret 
+
+
+let photosName =  ['p1' , 'p2' , 'p3'];
+let peopleName =  ['n1' , 'n2' , 'n3'];
+let jobPosition =  ['j1' , 'j2' , 'j3'];
+let pozicioni = 1;
+
+let image = //select from html;
+let name = //select from html;
+let job = //select from html;
+
+
+                                             jasht funksioneve
+-------------------------------------------------------------------------------
+                                            brenda funksioneve
+//ndrysho pozicioni
+
+
+//ndrysho pamjen
+image.src = photosName[pozicioni];
+name.innerText = peopleName[pozicioni];
+job.innerText = jobPosition[pozicioni];

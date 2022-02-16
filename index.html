@@ -20,10 +20,13 @@
         </h1>
       </div>
       <div class="sub-nav">
+        <input type="text" id="bookname" placeholder="Search a book..." />
+        <button onclick="onSearch()">Search</button>
+      </div>
+      <div class="sub-nav">
         <a href="#main-area" class="link">Home</a>
         <a href="#about" class="link">About</a>
         <a href="#showcase" class="link">Cases</a>
-        <a href="#blog" class="link">Blog</a>
         <a href="#contact" class="link">Contact</a>
       </div>
     </div>
@@ -141,21 +144,19 @@
     </div>
 
     <div class="about-team">
+      <button class="btn-peoples" onclick="onPrevious()">
+        <i class="fas fa-chevron-left fa-4x product-icon"></i>
+      </button>
+
       <div>
-        <img class="photo" src="photo1.jpg" alt="" />
-        <h2>Jessica Baker</h2>
-        <h3>President</h3>
+        <img id="firstPhoto" class="photo" src="photo1.jpg" alt="" />
+        <h2 id="name">Lydia Jane</h2>
+        <h3 id="job">Vice President</h3>
       </div>
-      <div>
-        <img class="photo1" src="photo2.jpg" alt="" />
-        <h2>Lydia Jane</h2>
-        <h3>Vice President</h3>
-      </div>
-      <div>
-        <img class="photo2" src="photo3.jpg" alt="" />
-        <h2>Mike Jackson</h2>
-        <h3>Marketing Head</h3>
-      </div>
+
+      <button class="btn-peoples" onclick="onNext()">
+        <i class="fas fa-chevron-right fa-4x product-icon"></i>
+      </button>
     </div>
     <div class="contact" id="contact">
       <div class="contact-image">
@@ -208,5 +209,19 @@
         });
       });
     </script>
+
+    <script src="script.js"></script>
   </body>
 </html>
+
+<!-- <div>
+        <img class="photo2" src="photo3.jpg" alt="" />
+        <h2>Mike Jackson</h2>
+        <h3>Marketing Head</h3>
+      </div> -->
+
+<!-- <div>
+        <img class="photo" src="photo1.jpg" alt="" />
+        <h2>Jessica Baker</h2>
+        <h3>President</h3>
+      </div> -->
