@@ -21,8 +21,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  height: 10vh;
-  padding: 0 2%;
+  padding: 2%;
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -71,11 +70,13 @@ body {
 
 .slogan {
   font-size: 75px;
+  text-align: center;
 }
 
 .sub-slogan {
   margin: 2% 0;
   font-size: 30px;
+  text-align: center;
 }
 
 .main-btn {
@@ -94,7 +95,6 @@ body {
 .cards {
   display: flex;
   width: 100vw;
-  height: 30vh;
 }
 
 .card {
@@ -118,21 +118,20 @@ body {
 
 .about {
   width: 100vw;
-  height: 40vh;
+
   /* background-color: burlywood; */
   display: flex;
 }
 
 .about-1 {
   width: 50%;
-  height: 100%;
+  background-image: url("photo.jpg");
 }
 
 .about-2 {
   display: flex;
   flex-direction: column;
   width: 50%;
-  height: 100%;
   padding: 15px;
   background-color: royalblue;
 }
@@ -169,12 +168,12 @@ body {
 
 .showcase {
   width: 100vw;
-  height: 20vh;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
   letter-spacing: 2px;
+  padding: 2rem;
 }
 
 .showcase h1 {
@@ -183,21 +182,19 @@ body {
 
 .showcase-images {
   width: 100vw;
-  height: 50vh;
   display: flex;
   flex-wrap: wrap;
 }
 
 .showcase-image {
   width: 25%;
-  height: 50%;
   padding: 5px;
 }
 
 .blog {
   margin-top: 20px;
   width: 100vw;
-  height: 50vh;
+
   display: flex;
 }
 
@@ -268,7 +265,6 @@ body {
 .about-team {
   display: flex;
   width: 100vw;
-  height: 40vh;
   background-color: #f4f4f4;
   text-align: center;
   justify-content: center;
@@ -294,34 +290,30 @@ body {
   text-align: center;
   border-top-left-radius: 40%;
   border-bottom-right-radius: 40%;
-  width: 33vw;
-  height: 30vh;
+  width: 70%;
 }
 .photo1 {
   text-align: center;
   border-top-left-radius: 40%;
   border-bottom-right-radius: 40%;
-  width: 33vw;
-  height: 30vh;
+  width: 70%;
 }
 .photo2 {
   text-align: center;
   border-top-left-radius: 40%;
   border-bottom-right-radius: 40%;
-  width: 33vw;
-  height: 30vh;
+  width: 70%;
 }
 
 .contact {
   width: 100vw;
-  height: 50vh;
+
   display: flex;
 }
 
 .contact-image,
 .contact-form {
   width: 50%;
-  height: 100%;
 }
 
 .contact-form {
@@ -381,4 +373,57 @@ body {
   color: lightgreen;
   border-radius: 50%;
   padding: 10px;
+}
+
+@media (max-width: 650px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .sub-nav {
+    margin: 1% 0;
+  }
+  .main-area {
+    padding: 3%;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+  .card p {
+    margin: 1rem 2rem;
+  }
+  .about {
+    flex-direction: column;
+  }
+  .about-1 {
+    width: 100%;
+  }
+  .about-2 {
+    width: 100%;
+    padding: 2rem;
+  }
+  .showcase-image {
+    width: 50%;
+  }
+  .blog {
+    flex-direction: column;
+  }
+  .blog > div {
+    width: 100%;
+  }
+  .about-team {
+    width: 100%;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .contact-image,
+  .contact-form {
+    width: 100%;
+  }
+  .footer h1 {
+    text-align: center;
+  }
 }

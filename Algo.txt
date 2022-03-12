@@ -1,0 +1,16 @@
+Search feature
+	INPUT
+		1)Merr elementin e emrit te librit nga perdoruesi
+		 	input nga index.html te script.js
+		2)Ruajme emrin ne nje variabel te script.js kur shtypet butoni
+		
+
+	Llogaritjet
+		1)Shkojme me JS ne nje faqe tjeter, marrim me vete emrin
+			te script.js
+		
+
+
+
+	Output 
+		1)Ndryshojm emrin e librit dhe foton te book-detail.js
